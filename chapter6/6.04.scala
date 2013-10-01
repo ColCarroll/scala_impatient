@@ -7,3 +7,6 @@ object Point {
   def apply(x: Int, y: Int) = new Point(x,y)
 }
 
+val home = Point(0,0) 
+println(home.x, home.y)
+
